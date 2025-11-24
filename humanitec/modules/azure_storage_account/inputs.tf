@@ -12,9 +12,3 @@ variable "location" {
   description = "The Azure location/region."
   type        = string
 }
-
-variable "container_name" {
-  description = "The name of the Azure Storage Container."
-  type        = string
-  default     = "default"
-}
